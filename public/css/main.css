@@ -7464,7 +7464,7 @@ input[type="checkbox"]:disabled:checked:after,
   color: inherit;
 }
 .navbar-brand {
-  min-with: 200px;
+  min-width: 200px;
   position: relative;
 }
 .navbar-brand .subtitle {
