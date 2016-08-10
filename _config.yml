@@ -2,7 +2,7 @@ excerpt_separator: ""
 highlighter: rouge
 markdown: kramdown
 url: http://thorstenweber83.github.io
-title: thorstenweber83
-tagline: A log of everyday life
-description: My awesome new site
+title: tinywatch
+tagline: bootswatch tinypress theme
+description: Just usin' some styles
 paginate: 5
