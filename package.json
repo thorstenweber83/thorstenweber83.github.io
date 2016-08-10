@@ -1,0 +1,26 @@
+{
+  "name": "thorstenweber83.github.io",
+  "version": "1.0.0",
+  "description": "just doin some tinypress themeing",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "less": "lessc --source-map less/main.less public/css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thorstenweber83/thorstenweber83.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thorstenweber83/thorstenweber83.github.io/issues"
+  },
+  "homepage": "https://github.com/thorstenweber83/thorstenweber83.github.io#readme",
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "bootswatch": "^3.3.7",
+    "less": "^2.7.1"
+  }
+}
