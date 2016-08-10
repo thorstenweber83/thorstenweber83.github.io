@@ -7463,10 +7463,16 @@ input[type="checkbox"]:disabled:checked:after,
 .carousel-caption h6 {
   color: inherit;
 }
+.navbar-brand {
+  min-with: 200px;
+  position: relative;
+}
 .navbar-brand .subtitle {
   position: absolute;
   font-size: small;
   color: #bed9ef;
-  margin-top: -5px;
+  bottom: 4px;
+  left: 15px;
+  white-space: nowrap;
 }
 /*# sourceMappingURL=main.css.map */

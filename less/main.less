@@ -2,10 +2,15 @@
 @import 'node_modules/bootswatch/paper/variables';
 @import 'node_modules/bootswatch/paper/bootswatch';
 
-.navbar-brand .subtitle{
-  position: absolute;
-  font-size: small;
-  color: desaturate(lighten(@brand-primary, 30%), 30%);
-  margin-top: -5px;
+.navbar-brand{
+  min-with: 200px;
+  position: relative;
+  .subtitle{
+   position: absolute;
+   font-size: small;
+   color: desaturate(lighten(@brand-primary, 30%), 30%);
+   bottom: 4px;
+   left: 15px;
+   white-space: nowrap;
+  }
 }
-
