@@ -26,12 +26,12 @@ title: Home
       <li class="previous disabled"><a href="#">&larr; Older</a></li>
     {% endif %}
   {% if paginator.previous_page %}
-    {% if paginator.page == 2 %} 
+    {% if paginator.page == 2 %}
       <li class="next"><a href="/">&rarr; Newer</a></li>
     {% else %}
       <li class="next"><a href="/page{{paginator.previous_page}}">&rarr; Newer</a></li>
     {% endif %}
   {% else %}
-      <li class="next disabled"><a href="#">&rarr; Newer</a></li>
+      <li class="next disabled"><a href="#">Newer &rarr;</a></li>
   {% endif %}
 </ul>
